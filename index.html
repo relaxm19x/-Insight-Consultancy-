@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insight Consultancy | شركة إنسيت للإستشارات</title>
+    <!-- Tailwind CSS for sleek and modern design -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for premium typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -29,12 +31,16 @@
 </head>
 <body class="bg-white text-black antialiased selection:bg-black selection:text-white">
 
+    <!-- Top Navigation & Logo Header -->
     <header class="border-b border-gray-100 sticky top-0 bg-white/90 backdrop-blur-md z-50">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <!-- Brand Logo Space -->
             <div class="flex items-center">
-                <img src="logo.jpg" alt="Insight Consultancy Logo" class="h-8 w-auto object-contain">
+                <!-- تم تكبير اللوقو إلى h-14 ليكون واضحاً وبارزاً بشكل احترافي -->
+                <img src="logo.jpg" alt="Insight Consultancy Logo" class="h-14 w-auto object-contain">
             </div>
 
+            <!-- Quick Navigation & Lang Switcher -->
             <div class="flex items-center space-x-6 space-x-reverse">
                 <nav class="hidden md:flex items-center space-x-8 space-x-reverse text-sm font-medium tracking-wide text-gray-600">
                     <a href="#about" class="hover:text-black transition-colors"><span class="lang-ar">من نحن</span><span class="lang-en">About</span></a>
@@ -52,6 +58,7 @@
         </div>
     </header>
 
+    <!-- Hero / Title Section -->
     <section class="max-w-7xl mx-auto px-6 py-20 border-b border-gray-100">
         <div class="max-w-3xl">
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-black leading-tight mb-6">
@@ -65,6 +72,7 @@
         </div>
     </section>
 
+    <!-- About Us, Vision, Mission & Values -->
     <section id="about" class="max-w-7xl mx-auto px-6 py-24 border-b border-gray-100 scroll-mt-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <div class="lg:col-span-2 space-y-12">
@@ -94,6 +102,7 @@
                 </div>
             </div>
 
+            <!-- Values Side -->
             <div class="bg-gray-50 p-8 md:p-12 flex flex-col justify-between">
                 <div>
                     <h2 class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-8"><span class="lang-ar">قيمنا</span><span class="lang-en">Our Values</span></h2>
@@ -109,6 +118,7 @@
         </div>
     </section>
 
+    <!-- CEO Message Section -->
     <section id="ceo" class="max-w-7xl mx-auto px-6 py-24 border-b border-gray-100 scroll-mt-24 bg-gray-50/50">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-6 text-center"><span class="lang-ar">كلمة الرئيس التنفيذي</span><span class="lang-en">CEO Message</span></h2>
@@ -123,6 +133,7 @@
         </div>
     </section>
 
+    <!-- Comprehensive Services Grid -->
     <section id="services" class="max-w-7xl mx-auto px-6 py-24 border-b border-gray-100 scroll-mt-24">
         <div class="mb-16">
             <h2 class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-3"><span class="lang-ar">خدماتنا الاستشارية</span><span class="lang-en">Our Advisory Services</span></h2>
@@ -130,6 +141,7 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Category 1 -->
             <div class="space-y-6">
                 <div class="border-b-2 border-black pb-3">
                     <h3 class="text-lg font-bold"><span class="lang-ar">إعادة الهيكلة المؤسسية</span><span class="lang-en">Corporates Restructuring</span></h3>
@@ -142,11 +154,12 @@
                     <li><span class="lang-ar">سياسات وإجراءات الإستثمار</span><span class="lang-en">Investment policies and procedures</span></li>
                     <li><span class="lang-ar">إعداد سياسات وإجراءات الإدارات</span><span class="lang-en">All departmental Policies and Procedure</span></li>
                     <li><span class="lang-ar">إعادة هيكلة الموارد البشرية</span><span class="lang-en">HR Restructuring</span></li>
-                    <li><span class="lang-ar">إعادة هيكلة الإدارة المالية</span><span class="lang-en">Finance Department Restructre</span></li>
+                    <li><span class="lang-ar">إعادة هيكلة الإدارة المالية</span><span class="lang-en">Finance Department Restructure</span></li>
                     <li><span class="lang-ar">إدارة مشاريع تغيير أو تطوير النظام الآلي</span><span class="lang-en">Core System transformation management</span></li>
                 </ul>
             </div>
 
+            <!-- Category 2 -->
             <div class="space-y-6">
                 <div class="border-b-2 border-black pb-3">
                     <h3 class="text-lg font-bold"><span class="lang-ar">إدارة المخاطر</span><span class="lang-en">Risk Management Consultancy</span></h3>
@@ -166,6 +179,7 @@
                 </ul>
             </div>
 
+            <!-- Category 3 -->
             <div class="space-y-6">
                 <div class="border-b-2 border-black pb-3">
                     <h3 class="text-lg font-bold"><span class="lang-ar">الحوكمة والامتثال الرقابي</span><span class="lang-en">Corporate Governance & Compliance</span></h3>
@@ -182,6 +196,7 @@
         </div>
     </section>
 
+    <!-- Target Audience Section -->
     <section id="audience" class="max-w-7xl mx-auto px-6 py-24 border-b border-gray-100 scroll-mt-24 bg-gray-50/30">
         <div class="mb-12">
             <h2 class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-3"><span class="lang-ar">الفئة المستهدفة</span><span class="lang-en">Target Audience</span></h2>
@@ -207,6 +222,7 @@
         </div>
     </section>
 
+    <!-- Footer / Contact Info Section -->
     <footer id="contact" class="max-w-7xl mx-auto px-6 py-20 scroll-mt-24">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-black pt-16">
             <div>
@@ -215,12 +231,28 @@
                     <span class="lang-ar">يسعدنا تواصلكم معنا للرد على أي استفسارات أو مناقشة سبل التعاون المشترك وتطوير أعمالكم.</span>
                     <span class="lang-en">Please don’t hesitate to contact us for any inquiries or clarification needed. We look forward to hearing from you.</span>
                 </p>
-                <div class="space-y-2 text-xs font-bold tracking-wider uppercase">
-                    <p class="text-gray-400"><span class="lang-ar">البريد الإلكتروني الرسمي</span><span class="lang-en">Official Corporate Email</span></p>
-                    <a href="mailto:info@insightconsultancykw.com" class="text-base text-black lowercase block border-b border-transparent hover:border-black w-fit pt-1 pb-3">info@insightconsultancykw.com</a>
+                <div class="space-y-6">
+                    <div class="space-y-2 text-xs font-bold tracking-wider uppercase">
+                        <p class="text-gray-400"><span class="lang-ar">البريد الإلكتروني الرسمي</span><span class="lang-en">Official Corporate Email</span></p>
+                        <a href="mailto:info@insightconsultancykw.com" class="text-base text-black lowercase block border-b border-transparent hover:border-black w-fit pt-1 pb-1">info@insightconsultancykw.com</a>
+                    </div>
+                    
+                    <!-- قسم اللوكيشن / موقعنا الخرائط المضاف حديثاً -->
+                    <div class="space-y-2 text-xs font-bold tracking-wider uppercase">
+                        <p class="text-gray-400"><span class="lang-ar">موقعنا</span><span class="lang-en">Our Location</span></p>
+                        <a href="https://google.com/maps?q=برج+دار+العوضي،+شارع+أحمد+الجابر،+مدينة+الكويت&ftid=0x3fcf8491813f08ed:0xdb83aae35feaad27&entry=gps" target="_blank" class="text-sm text-black block hover:underline flex items-center gap-2 pt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                            <span class="lang-ar">برج دار العوضي، شارع أحمد الجابر، مدينة الكويت</span>
+                            <span class="lang-en">Dar Al Awadi Tower, Ahmed Al Jaber St, Kuwait City</span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
+            <!-- Contact Information Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 bg-gray-50 p-8">
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2"><span class="lang-ar">الإدارة التنفيذية</span><span class="lang-en">Executive Management</span></h4>
@@ -245,6 +277,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript Toggle Language Logic -->
     <script>
         function toggleLanguage() {
             const html = document.documentElement;
