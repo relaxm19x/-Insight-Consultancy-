@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insight Consultancy | شركة إنسيت للإستشارات</title>
+    <!-- Tailwind CSS for premium corporate design -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for elite typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -45,15 +47,19 @@
 </head>
 <body class="antialiased selection:bg-amber-500 selection:text-white">
 
+    <!-- Top Navigation & Logo Header -->
     <header class="border-b border-white/10 sticky top-0 bg-[#0f0d22]/90 backdrop-blur-md z-50">
         <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <!-- Brand Logo Space -->
             <div class="flex items-center">
                 <img src="logo.jpg" alt="Insight Consultancy Logo" class="h-14 w-auto object-contain">
             </div>
 
+            <!-- Quick Navigation & Lang Switcher -->
             <div class="flex items-center space-x-6 space-x-reverse">
                 <nav class="hidden md:flex items-center space-x-8 space-x-reverse text-sm font-medium tracking-wide text-gray-100">
                     <a href="#about" class="hover:text-brand-gold transition-colors"><span class="lang-ar">من نحن</span><span class="lang-en">About</span></a>
+                    <a href="#ceo" class="hover:text-brand-gold transition-colors"><span class="lang-ar">كلمة الرئيس</span><span class="lang-en">CEO Message</span></a>
                     <a href="#services" class="hover:text-brand-gold transition-colors"><span class="lang-ar">خدماتنا</span><span class="lang-en">Services</span></a>
                     <a href="#audience" class="hover:text-brand-gold transition-colors"><span class="lang-ar">الفئة المستهدفة</span><span class="lang-en">Audience</span></a>
                     <a href="#contact" class="hover:text-brand-gold transition-colors"><span class="lang-ar">اتصل بنا</span><span class="lang-en">Contact</span></a>
@@ -67,6 +73,7 @@
         </div>
     </header>
 
+    <!-- Hero / Title Section -->
     <section class="max-w-7xl mx-auto px-6 py-36 border-b border-white/5">
         <div class="max-w-4xl">
             <h1 class="text-4xl md:text-7xl font-bold tracking-tight text-white leading-tight mb-8">
@@ -80,11 +87,12 @@
         </div>
     </section>
 
+    <!-- About Us, Vision, Mission & Values -->
     <section id="about" class="max-w-7xl mx-auto px-6 py-36 border-b border-white/5 scroll-mt-24">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <div class="lg:col-span-2 space-y-16">
                 <div>
-                    <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-6"><span class="lang-ar">نبذة عن الشركة</span><span class="lang-en">About Us</span></h2>
+                    <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-4"><span class="lang-ar">نبذة عن الشركة</span><span class="lang-en">About Us</span></h2>
                     
                     <div class="text-xl text-white leading-relaxed font-light">
                         <p class="lang-ar mb-6">تعمل Insight Consultancy كشركة استشارية متخصصة في مجالات الحوكمة وإدارة المخاطر والامتثال وتأهيل الشركات للتصنيف الإئتماني والاستدامة وإعادة الهيكلة المؤسسية.</p>
@@ -98,7 +106,7 @@
                     <div class="bg-brand-card border border-white/5 p-8 rounded-lg hover:border-brand-gold/40 transition-all duration-300">
                         <h3 class="text-lg font-bold mb-4 text-brand-gold"><span class="lang-ar">رؤيتنا</span><span class="lang-en">Our Vision</span></h3>
                         <p class="text-white font-light leading-relaxed text-sm">
-                            <span class="lang-ar">تتمثل رؤيتنا في أن نصبح من أبرز شركات الاستشارات في المنطقة، معترفًا بنا لتميّزنا في تحويل المخاطر إلى ميزة استراتيجية وتمكين المؤسسات من القيادة بوضوح وثقة.</span>
+                            <span class="lang-ar">تتمثل رؤيتنا في أن نوضع من أبرز شركات الاستشارات في المنطقة، معترفًا بنا لتميّزنا في تحويل المخاطر إلى ميزة استراتيجية وتمكين المؤسسات من القيادة بوضوح وثقة.</span>
                             <span class="lang-en">Our Vision is to become one of the region’s top advisory firms, recognized for transforming risk into strategic advantage and enabling organizations to lead with clarity and confidence.</span>
                         </p>
                     </div>
@@ -112,11 +120,12 @@
                 </div>
             </div>
 
+            <!-- Values Side -->
             <div class="bg-brand-card border border-brand-gold/20 p-8 md:p-12 flex flex-col justify-between rounded-lg shadow-xl relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-24 h-24 bg-brand-gold/5 rounded-full blur-2xl"></div>
                 <div class="relative z-10">
                     <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-8"><span class="lang-ar">قيمنا</span><span class="lang-en">Our Values</span></h2>
-                    <ul class="space-y-5 text-sm font-light tracking-wide text-white">
+                    <ul class="space-y-5 text-sm font-light tracking-wide text-gray-200">
                         <li class="flex items-start gap-3"><span class="w-2 h-2 bg-brand-gold rounded-full mt-1.5 shrink-0"></span><div><span class="lang-ar font-semibold block text-brand-gold mb-0.5">النزاهة</span><span class="lang-en font-semibold block text-brand-gold mb-0.5">Integrity</span></div></li>
                         <li class="flex items-start gap-3"><span class="w-2 h-2 bg-brand-gold rounded-full mt-1.5 shrink-0"></span><div><span class="lang-ar font-semibold block text-brand-gold mb-0.5">الرؤية الاستراتيجية</span><span class="lang-en font-semibold block text-brand-gold mb-0.5">Strategic Foresight</span></div></li>
                         <li class="flex items-start gap-3"><span class="w-2 h-2 bg-brand-gold rounded-full mt-1.5 shrink-0"></span><div><span class="lang-ar font-semibold block text-brand-gold mb-0.5">ترسيخ ثقة العملاء</span><span class="lang-en font-semibold block text-brand-gold mb-0.5">Strengthening client trust</span></div></li>
@@ -128,6 +137,27 @@
         </div>
     </section>
 
+    <!-- CEO Message Section (تم إعادتها بطلب إبقاء الفقرة وإزالة الاسم فقط) -->
+    <section id="ceo" class="max-w-7xl mx-auto px-6 py-36 border-b border-white/5 scroll-mt-24 relative">
+        <div class="max-w-4xl mx-auto bg-brand-card border border-white/5 p-10 md:p-16 rounded-xl shadow-2xl">
+            <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-8 text-center"><span class="lang-ar">كلمة الرئيس التنفيذي</span><span class="lang-en">CEO Message</span></h2>
+            
+            <div class="text-lg md:text-xl font-light text-white text-center leading-relaxed italic space-y-4">
+                <p class="lang-ar">"بصفتي الرئيس التنفيذي لشركة Insight Consultancy، أفخر بقيادة مؤسسة تقوم على الوضوح والنزاهة والرؤية الاستراتيجية. وفي منطقة تتسارع فيها المخاطر وتتزايد فيها التعقيدات يومًا بعد يوم، تظل مهمتنا واضحة: تمكين المؤسسات من رؤية المخاطر مبكرًا، وفهمها بعمق، واتخاذ القرارات بثقة. ونحن ملتزمون بتقديم استشارات عالية الجودة تحول عدم اليقين إلى فرصة، وتمكّن عملاءنا من القيادة بقوة ومرونة وبصيرة."</p>
+                
+                <p class="lang-en">"As CEO of Insight Consultancy, I am proud to lead a firm built on clarity, integrity, and strategic foresight. In a region where risk evolves rapidly and complexity grows by the day, our mission is simple: empower organizations to see risk early, understand it deeply, and act with confidence.</p>
+                <p class="lang-en">We are committed to delivering advisory excellence that transforms uncertainty into opportunity and enables our clients to lead with strength, resilience, and insight."</p>
+            </div>
+            
+            <!-- تم الإبقاء على منصب الرئيس التنفيذي فقط وحذف الاسم بالكامل بناءً على طلب الشركة -->
+            <div class="mt-10 text-center space-y-1">
+                <p class="text-sm uppercase tracking-widest text-brand-gold font-bold block pt-1"><span class="lang-ar">الرئيس التنفيذي</span><span class="lang-en">CEO</span></p>
+                <p class="text-[11px] uppercase tracking-widest text-gray-400 block font-medium">Insight Consultancy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comprehensive Services Grid -->
     <section id="services" class="max-w-7xl mx-auto px-6 py-36 border-b border-white/5 scroll-mt-24">
         <div class="mb-20">
             <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-4"><span class="lang-ar">خدماتنا الاستشارية</span><span class="lang-en">Our Advisory Services</span></h2>
@@ -135,6 +165,7 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Category 1 -->
             <div class="bg-brand-card border border-white/5 p-8 rounded-lg space-y-6 hover:border-brand-gold/30 transition-all duration-300">
                 <div class="border-b border-brand-gold/30 pb-4">
                     <h3 class="text-xl font-bold text-white"><span class="lang-ar">إعادة الهيكلة المؤسسية</span><span class="lang-en">Corporates Restructuring</span></h3>
@@ -152,6 +183,7 @@
                 </ul>
             </div>
 
+            <!-- Category 2 -->
             <div class="bg-brand-card border border-white/5 p-8 rounded-lg space-y-6 hover:border-brand-gold/30 transition-all duration-300">
                 <div class="border-b border-brand-gold/30 pb-4">
                     <h3 class="text-xl font-bold text-white"><span class="lang-ar">إدارة المخاطر</span><span class="lang-en">Risk Management Consultancy</span></h3>
@@ -171,6 +203,7 @@
                 </ul>
             </div>
 
+            <!-- Category 3 -->
             <div class="bg-brand-card border border-white/5 p-8 rounded-lg space-y-6 hover:border-brand-gold/30 transition-all duration-300">
                 <div class="border-b border-brand-gold/30 pb-4">
                     <h3 class="text-xl font-bold text-white"><span class="lang-ar">الحوكمة والامتثال الرقابي</span><span class="lang-en">Corporate Governance & Compliance</span></h3>
@@ -178,15 +211,16 @@
                 <ul class="space-y-3 text-sm text-white font-light">
                     <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">سياسات وإجراءات الإلتزام الرقابي</span><span class="lang-en">Compliance consultancy</span></div></li>
                     <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">سياسات وإجراءات حوكمة الشركات</span><span class="lang-en">Corporate governance consultancy</span></li>
-                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير هيئة أسواق المال</span><span class="lang-en">CMA reporting consultancy</span></div></li>
-                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير وحدة تنظيم التأمين</span><span class="lang-en">IRU reporting consultancy</span></div></li>
-                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير وزارة التجارة والصناعة</span><span class="lang-en">MOCI Reporting</span></div></li>
+                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير هيئة أسواق المال</span><span class="lang-en">CMA reporting consultancy</span></li>
+                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير وحدة تنظيم التأمين</span><span class="lang-en">IRU reporting consultancy</span></li>
+                    <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">إعداد حزمة تقارير وزارة التجارة والصناعة</span><span class="lang-en">MOCI Reporting</span></li>
                     <li class="flex items-center gap-2"><span class="w-1 h-1 bg-brand-gold rounded-full"></span><div><span class="lang-ar">سياسات وإجراءات مجلس الإدارة</span><span class="lang-en">Board of directors policies and procedures</span></li>
                 </ul>
             </div>
         </div>
     </section>
 
+    <!-- Target Audience Section -->
     <section id="audience" class="max-w-7xl mx-auto px-6 py-36 border-b border-white/5 scroll-mt-24">
         <div class="mb-16">
             <h2 class="text-xs uppercase tracking-widest text-brand-gold font-bold mb-4"><span class="lang-ar">الفئة المستهدفة</span><span class="lang-en">Target Audience</span></h2>
@@ -212,6 +246,7 @@
         </div>
     </section>
 
+    <!-- Footer / Contact Info Section -->
     <footer id="contact" class="bg-[#0b0918] border-t border-white/10 px-6 py-24 scroll-mt-24">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
@@ -226,6 +261,7 @@
                         <a href="mailto:info@insightconsultancykw.com" class="text-base text-brand-gold lowercase block border-b border-transparent hover:border-brand-gold w-fit pt-1 pb-1">info@insightconsultancykw.com</a>
                     </div>
                     
+                    <!-- قسم اللوكيشن / موقعنا الخرائط -->
                     <div class="space-y-2 text-xs font-bold tracking-wider uppercase">
                         <p class="text-white/60"><span class="lang-ar">موقعنا</span><span class="lang-en">Our Location</span></p>
                         <a href="https://google.com/maps?q=برج+دار+العوضي،+شارع+أحمد+الجابر،+مدينة+الكويت&ftid=0x3fcf8491813f08ed:0xdb83aae35feaad27&entry=gps" target="_blank" class="text-sm text-white block hover:text-brand-gold transition-colors flex items-center gap-2 pt-1">
@@ -240,6 +276,7 @@
                 </div>
             </div>
 
+            <!-- Contact Information Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 bg-brand-card/50 p-8 border border-white/5 rounded-lg self-start">
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-widest text-brand-gold mb-3"><span class="lang-ar">رقم التواصل (الكويت)</span><span class="lang-en">Kuwait Contact</span></h4>
@@ -253,11 +290,12 @@
         </div>
         
         <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-white/40 gap-4">
-            <p>© 2026 Insight Consultancy. All rights reserved.</p>
+            <p>&copy; 2026 Insight Consultancy. All rights reserved.</p>
             <p>insightconsultancykw.com</p>
         </div>
     </footer>
 
+    <!-- JavaScript Toggle Language Logic -->
     <script>
         function toggleLanguage() {
             const html = document.documentElement;
